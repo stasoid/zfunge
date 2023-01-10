@@ -110,7 +110,7 @@ fcmd_t(fil_fread) {
 
 fcmd_t(fil_fseek) {
 	long i, bytes, origin;
-	fpos_t poss[] = { SEEK_SET, SEEK_CUR, SEEK_END };
+	int poss[] = { SEEK_SET, SEEK_CUR, SEEK_END };
 
 	bytes = fst_pop(&ip->stack, 0);
 	origin = fst_pop(&ip->stack, 0);
