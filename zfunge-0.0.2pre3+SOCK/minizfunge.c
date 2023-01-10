@@ -231,7 +231,7 @@ fcmd_t(loadcommand_minifunge) {
         for (i = 0; i < 256; i++) {
                 one = malloc(sizeof(*one)*2);
                 *one = 1;
-                (long*)ip->commands[i] = one;
+                ip->commands[i] = one;
 		ip->commands[i][1] = minicommands[i];
         }
 }

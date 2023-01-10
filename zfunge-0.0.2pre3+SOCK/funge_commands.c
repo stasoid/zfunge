@@ -579,6 +579,6 @@ fcmd_t(loadcommand_standard) {
 	for (i = 0; i < 256; i++) {
 		zero = malloc(sizeof(*zero));
 		*zero = 0;
-		(long*)ip->commands[i] = zero;
+		ip->commands[i] = zero;
 	}
 }

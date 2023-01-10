@@ -33,7 +33,7 @@ void fsp_init() {
 	for (i = 0; i < HASHLEN; i++) {
 		s = malloc(sizeof(long));
 		*s = 0;
-		(long*)spacehash[i] = s;
+		spacehash[i] = s;
 	}
 
 	totalspace = malloc(sizeof(*totalspace));
