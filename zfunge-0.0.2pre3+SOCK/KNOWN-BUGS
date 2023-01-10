@@ -1,0 +1,7 @@
+
+	Current list of known bugs:
+
+		befunged93 compatibility mode isn't.
+			(And isn't likely to ever be.. Everything should work
+			 ok except for strings with more than one space
+			 together... )

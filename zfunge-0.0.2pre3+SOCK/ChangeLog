@@ -1,0 +1,27 @@
+
+
+
+	1999/07/13
+		Started ChangeLog...
+
+		Actually updated changelog this time;
+		Fixed y2k bug (you could execute y2k@ and zfunge would seg)
+		other misc. updates, probably...
+	1999/07/14
+
+		Made string mode work like funge specs (I think)
+
+		Fixed segfault regaurding not allocating enough memory when
+		duplicating stacks when splitting IPs..
+
+		added FILE fingerprint, converted NULL fingerprint to short
+		.c file...
+
+		Fixed a large number of bugs reguarding threads...
+
+		Made the iterate command (k) work as the specs say it should;
+		this differs from both RC/Funge and FBBI.. oh well..
+
+		Really made string mode work like funge specs (I think)...
+		(I'm not certain that wrapping is supposed to produce a space,
+		 I made it because hey, all that out there IS space.. )

@@ -1,0 +1,15 @@
+
+
+	zfunge is a funge98 interpreter (une/be/tre) that attempts to
+	be as compliant with the 'standard' as possible...
+
+	Currently zfunge implements all funge98 commands, and has a
+	befunged93 compatibility mode, also in progress is ANSI tracing
+	of the program (It'll be changed to termcap or ncurses eventually).
+
+	For more information on funge, visit http://www.cats-eye.com/funge/.
+
+	For the latest version of zfunge, visit
+		http://www.zebra.net/~dm/zfunge/
+
+	-zinx-

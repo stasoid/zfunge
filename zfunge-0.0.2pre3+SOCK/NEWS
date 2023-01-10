@@ -1,0 +1,18 @@
+
+
+
+
+	1999/07/13
+		Started NEWS....
+
+		String mode works like funge specs now (I think); should make
+		threads work a bit better..
+
+		zfunge will install the .fl files in its own directory, and
+		search that directory first now...
+
+	1999/07/14
+
+		Threads shouldn't ever cause zfunge to segfault now..
+
+		'k' command works as it should have to begin with now..
