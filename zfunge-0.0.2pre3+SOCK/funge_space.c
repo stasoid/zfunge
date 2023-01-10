@@ -206,7 +206,7 @@ int fsp_real_next_cell(struct ipoint *ip, long comflag) {
 	return 0;
 }
 
-inline void fsp_next_cell(struct ipoint *ip) {
+void fsp_next_cell(struct ipoint *ip) {
 	fsp_real_next_cell(ip, 0);
 }
 
